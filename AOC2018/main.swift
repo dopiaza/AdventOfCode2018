@@ -25,6 +25,8 @@ var puzzle: Puzzle!
 switch day {
 case 1:
     puzzle = AOC1()
+case 2:
+    puzzle = AOC2()
 default:
     print("Cannot load puzzle for Day \(day)")
     exit(1)
