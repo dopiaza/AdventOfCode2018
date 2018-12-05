@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4F59AE4121B7E4FB00E20879 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE4021B7E4FB00E20879 /* main.swift */; };
+		4F59AE4D21B7E67200E20879 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE4C21B7E67200E20879 /* Puzzle.swift */; };
+		4F59AE4F21B7E6E900E20879 /* AOC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE4E21B7E6E900E20879 /* AOC1.swift */; };
+		4F59AE6521B7F2E200E20879 /* InputReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE6421B7F2E200E20879 /* InputReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,10 @@
 /* Begin PBXFileReference section */
 		4F59AE3D21B7E4FB00E20879 /* AOC2018 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC2018; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F59AE4021B7E4FB00E20879 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4F59AE4921B7E58E00E20879 /* 1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
+		4F59AE4C21B7E67200E20879 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		4F59AE4E21B7E6E900E20879 /* AOC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC1.swift; sourceTree = "<group>"; };
+		4F59AE6421B7F2E200E20879 /* InputReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +64,37 @@
 		4F59AE3F21B7E4FB00E20879 /* AOC2018 */ = {
 			isa = PBXGroup;
 			children = (
+				4F59AE4B21B7E60F00E20879 /* Common */,
+				4F59AE4A21B7E5F000E20879 /* Puzzles */,
+				4F59AE4721B7E56100E20879 /* Input */,
 				4F59AE4021B7E4FB00E20879 /* main.swift */,
 			);
 			path = AOC2018;
+			sourceTree = "<group>";
+		};
+		4F59AE4721B7E56100E20879 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				4F59AE4921B7E58E00E20879 /* 1.txt */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		4F59AE4A21B7E5F000E20879 /* Puzzles */ = {
+			isa = PBXGroup;
+			children = (
+				4F59AE4E21B7E6E900E20879 /* AOC1.swift */,
+			);
+			path = Puzzles;
+			sourceTree = "<group>";
+		};
+		4F59AE4B21B7E60F00E20879 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4F59AE4C21B7E67200E20879 /* Puzzle.swift */,
+				4F59AE6421B7F2E200E20879 /* InputReader.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F59AE4F21B7E6E900E20879 /* AOC1.swift in Sources */,
 				4F59AE4121B7E4FB00E20879 /* main.swift in Sources */,
+				4F59AE4D21B7E67200E20879 /* Puzzle.swift in Sources */,
+				4F59AE6521B7F2E200E20879 /* InputReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +284,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XNZ34C97W;
+				INFOPLIST_FILE = "$(SRCROOT)/info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = AOC2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -256,6 +296,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XNZ34C97W;
+				INFOPLIST_FILE = "$(SRCROOT)/info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = AOC2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};

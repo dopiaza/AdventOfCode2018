@@ -8,5 +8,40 @@
 
 import Foundation
 
-print("Hello, World!")
+let start = Date()
 
+if CommandLine.arguments.count != 3 {
+    print("Please specify the day number to run, and the stage of the puzzle")
+    exit(1)
+}
+
+let day: Int = Int(CommandLine.arguments[1]) ?? 0
+let stage: Int = Int(CommandLine.arguments[2]) ?? 0
+
+print("Day \(day), stage \(stage)")
+
+var puzzle: Puzzle!
+
+switch day {
+case 1:
+    puzzle = AOC1()
+default:
+    print("Cannot load puzzle for Day \(day)")
+    exit(1)
+}
+
+switch stage {
+case 1:
+    puzzle.run1()
+case 2:
+    puzzle.run2()
+default:
+    print("Cannot find Stage \(stage) for Day \(day)")
+    exit(1)
+}
+
+let end = Date()
+
+let interval = end.timeIntervalSince(start)
+
+print("\(interval) seconds")
