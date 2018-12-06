@@ -29,6 +29,8 @@ case 2:
     puzzle = AOC2()
 case 3:
     puzzle = AOC3()
+case 4:
+    puzzle = AOC4()
 default:
     print("Cannot load puzzle for Day \(day)")
     exit(1)
