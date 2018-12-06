@@ -12,6 +12,8 @@
 		4F59AE4F21B7E6E900E20879 /* AOC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE4E21B7E6E900E20879 /* AOC1.swift */; };
 		4F59AE6521B7F2E200E20879 /* InputReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE6421B7F2E200E20879 /* InputReader.swift */; };
 		4F59AE6821B8003E00E20879 /* AOC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE6721B8003E00E20879 /* AOC2.swift */; };
+		4F59AE8121B8B9F800E20879 /* AOC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE8021B8B9F800E20879 /* AOC3.swift */; };
+		4F59AE8321B93E6E00E20879 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE8221B93E6E00E20879 /* Regex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +38,10 @@
 		4F59AE6621B8002700E20879 /* 2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2.txt; sourceTree = "<group>"; };
 		4F59AE6721B8003E00E20879 /* AOC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2.swift; sourceTree = "<group>"; };
 		4F59AE6921B80F1800E20879 /* 2-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "2-example.txt"; sourceTree = "<group>"; };
+		4F59AE6A21B81CDF00E20879 /* 3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3.txt; sourceTree = "<group>"; };
+		4F59AE6B21B81D2800E20879 /* 3-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3-example.txt"; sourceTree = "<group>"; };
+		4F59AE8021B8B9F800E20879 /* AOC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC3.swift; sourceTree = "<group>"; };
+		4F59AE8221B93E6E00E20879 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,8 @@
 				4F59AE4921B7E58E00E20879 /* 1.txt */,
 				4F59AE6621B8002700E20879 /* 2.txt */,
 				4F59AE6921B80F1800E20879 /* 2-example.txt */,
+				4F59AE6A21B81CDF00E20879 /* 3.txt */,
+				4F59AE6B21B81D2800E20879 /* 3-example.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -91,6 +99,7 @@
 			children = (
 				4F59AE4E21B7E6E900E20879 /* AOC1.swift */,
 				4F59AE6721B8003E00E20879 /* AOC2.swift */,
+				4F59AE8021B8B9F800E20879 /* AOC3.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -100,6 +109,7 @@
 			children = (
 				4F59AE4C21B7E67200E20879 /* Puzzle.swift */,
 				4F59AE6421B7F2E200E20879 /* InputReader.swift */,
+				4F59AE8221B93E6E00E20879 /* Regex.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -164,6 +174,8 @@
 				4F59AE6821B8003E00E20879 /* AOC2.swift in Sources */,
 				4F59AE4F21B7E6E900E20879 /* AOC1.swift in Sources */,
 				4F59AE4121B7E4FB00E20879 /* main.swift in Sources */,
+				4F59AE8321B93E6E00E20879 /* Regex.swift in Sources */,
+				4F59AE8121B8B9F800E20879 /* AOC3.swift in Sources */,
 				4F59AE4D21B7E67200E20879 /* Puzzle.swift in Sources */,
 				4F59AE6521B7F2E200E20879 /* InputReader.swift in Sources */,
 			);
