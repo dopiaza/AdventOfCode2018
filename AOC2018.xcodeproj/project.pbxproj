@@ -15,6 +15,7 @@
 		4F59AE8121B8B9F800E20879 /* AOC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE8021B8B9F800E20879 /* AOC3.swift */; };
 		4F59AE8321B93E6E00E20879 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE8221B93E6E00E20879 /* Regex.swift */; };
 		4F59AE8721B9548E00E20879 /* AOC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE8621B9548E00E20879 /* AOC4.swift */; };
+		4F87C22D21B9B84300B21EC9 /* AOC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C22C21B9B84300B21EC9 /* AOC5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,9 @@
 		4F59AE8421B9530400E20879 /* 4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 4.txt; sourceTree = "<group>"; };
 		4F59AE8521B9543C00E20879 /* 4-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "4-example.txt"; sourceTree = "<group>"; };
 		4F59AE8621B9548E00E20879 /* AOC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC4.swift; sourceTree = "<group>"; };
+		4F87C22C21B9B84300B21EC9 /* AOC5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC5.swift; sourceTree = "<group>"; };
+		4F87C22E21B9B85600B21EC9 /* 5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 5.txt; sourceTree = "<group>"; };
+		4F87C22F21B9B89100B21EC9 /* 5-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "5-example.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				4F59AE6B21B81D2800E20879 /* 3-example.txt */,
 				4F59AE8421B9530400E20879 /* 4.txt */,
 				4F59AE8521B9543C00E20879 /* 4-example.txt */,
+				4F87C22E21B9B85600B21EC9 /* 5.txt */,
+				4F87C22F21B9B89100B21EC9 /* 5-example.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -107,6 +113,7 @@
 				4F59AE6721B8003E00E20879 /* AOC2.swift */,
 				4F59AE8021B8B9F800E20879 /* AOC3.swift */,
 				4F59AE8621B9548E00E20879 /* AOC4.swift */,
+				4F87C22C21B9B84300B21EC9 /* AOC5.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -178,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F87C22D21B9B84300B21EC9 /* AOC5.swift in Sources */,
 				4F59AE6821B8003E00E20879 /* AOC2.swift in Sources */,
 				4F59AE4F21B7E6E900E20879 /* AOC1.swift in Sources */,
 				4F59AE4121B7E4FB00E20879 /* main.swift in Sources */,

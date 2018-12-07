@@ -27,4 +27,8 @@ class InputReader {
             fatalError("Cannot load file \(inputFile)")
         }
     }
+    
+    func toString() -> String {
+        return toStringArray().first!
+    }
 }
