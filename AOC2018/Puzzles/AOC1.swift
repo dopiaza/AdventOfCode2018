@@ -9,24 +9,33 @@
 import Foundation
 
 class AOC1: Puzzle {
-    func run1() {
-        let reader = InputReader(input: "1")
+    
+    let inputFile: String
+    
+    init(inputFile: String) {
+        self.inputFile = inputFile
+    }
+    
+    func run1() -> String {
+        let reader = InputReader(input: inputFile)
         let data = reader.toStringArray()
         print ("\(data.count) lines read")
         
         let frequency = calibrate(start: 0, changes: data)
         
         print("Final frequency: \(frequency)")
+        return String(frequency)
     }
     
-    func run2() {
-        let reader = InputReader(input: "1")
+    func run2() -> String {
+        let reader = InputReader(input: inputFile)
         let data = reader.toStringArray()
         print ("\(data.count) lines read")
         
         let frequency = findDuplicate(start: 0, changes: data)
         
         print("Duplicate frequency: \(frequency)")
+        return String(frequency)
     }
     
     func calibrate(start: Int, changes: [String]) -> Int {

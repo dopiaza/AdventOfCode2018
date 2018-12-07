@@ -9,6 +9,6 @@
 import Foundation
 
 protocol Puzzle {
-    func run1()
-    func run2()
+    func run1() -> String
+    func run2() -> String
 }

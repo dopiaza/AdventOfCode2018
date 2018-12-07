@@ -12,7 +12,14 @@ class InputReader {
     let inputFile: String
     
     init(input: String) {
-        inputFile = "Input/\(input).txt"
+        var aocDir: String?
+        if let dir = ProcessInfo.processInfo.environment["AOC_DIR"] {
+            aocDir = dir + "/"
+        } else {
+            aocDir = ""
+        }
+        inputFile = "\(aocDir!)/Input/\(input).txt"
+        print(inputFile)
     }
     
     func toStringArray(trimBlank: Bool = true) -> [String] {

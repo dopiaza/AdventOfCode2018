@@ -11,12 +11,12 @@ import Foundation
 class AOC3: Puzzle {
     let data: [String]
     
-    init() {
-        let reader = InputReader(input: "3")
+    init(inputFile: String) {
+        let reader = InputReader(input: inputFile)
         data = reader.toStringArray()
     }
     
-    func run1() {
+    func run1() -> String {
         let claims = getClaims()
         let fabric = Fabric()
         
@@ -25,11 +25,13 @@ class AOC3: Puzzle {
         }
         
         print("Multiple claims for: \(fabric.multipleClaims)")
+        return String(fabric.multipleClaims)
     }
     
-    func run2() {
+    func run2() -> String {
         let claims = getClaims()
         let fabric = Fabric()
+        var noOverlap: Claim?
         
         claims.forEach { (claim) in
             fabric.addClaim(claim)
@@ -38,10 +40,11 @@ class AOC3: Puzzle {
         claims.forEach { (claim) in
             if !fabric.hasOverlap(claim: claim) {
                 print("Claim \(claim.id) has no overlap")
+                noOverlap = claim
 
             }
         }
-        
+        return String(noOverlap?.id ?? 0)
     }
     
     func getClaims() -> [Claim] {

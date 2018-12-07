@@ -19,6 +19,18 @@
 		4F87C23321BA8B2100B21EC9 /* AOC6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C23221BA8B2100B21EC9 /* AOC6.swift */; };
 		4F87C23521BA8CD000B21EC9 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C23421BA8CD000B21EC9 /* Point.swift */; };
 		4F87C23721BA8CE800B21EC9 /* ExpandableGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C23621BA8CE800B21EC9 /* ExpandableGrid.swift */; };
+		4F87C23F21BA9C7F00B21EC9 /* AOC2018_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C23E21BA9C7F00B21EC9 /* AOC2018_Tests.swift */; };
+		4F87C24421BAA07C00B21EC9 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE4C21B7E67200E20879 /* Puzzle.swift */; };
+		4F87C24521BAA07C00B21EC9 /* InputReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE6421B7F2E200E20879 /* InputReader.swift */; };
+		4F87C24621BAA07C00B21EC9 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE8221B93E6E00E20879 /* Regex.swift */; };
+		4F87C24721BAA07C00B21EC9 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C23421BA8CD000B21EC9 /* Point.swift */; };
+		4F87C24821BAA07C00B21EC9 /* ExpandableGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C23621BA8CE800B21EC9 /* ExpandableGrid.swift */; };
+		4F87C24921BAA08300B21EC9 /* AOC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE4E21B7E6E900E20879 /* AOC1.swift */; };
+		4F87C24A21BAA08300B21EC9 /* AOC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE6721B8003E00E20879 /* AOC2.swift */; };
+		4F87C24B21BAA08300B21EC9 /* AOC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE8021B8B9F800E20879 /* AOC3.swift */; };
+		4F87C24C21BAA08300B21EC9 /* AOC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE8621B9548E00E20879 /* AOC4.swift */; };
+		4F87C24D21BAA08300B21EC9 /* AOC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C22C21B9B84300B21EC9 /* AOC5.swift */; };
+		4F87C24E21BAA08300B21EC9 /* AOC6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C23221BA8B2100B21EC9 /* AOC6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,7 +54,7 @@
 		4F59AE6421B7F2E200E20879 /* InputReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputReader.swift; sourceTree = "<group>"; };
 		4F59AE6621B8002700E20879 /* 2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2.txt; sourceTree = "<group>"; };
 		4F59AE6721B8003E00E20879 /* AOC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2.swift; sourceTree = "<group>"; };
-		4F59AE6921B80F1800E20879 /* 2-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "2-example.txt"; sourceTree = "<group>"; };
+		4F59AE6921B80F1800E20879 /* 2a-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "2a-example.txt"; sourceTree = "<group>"; };
 		4F59AE6A21B81CDF00E20879 /* 3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3.txt; sourceTree = "<group>"; };
 		4F59AE6B21B81D2800E20879 /* 3-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3-example.txt"; sourceTree = "<group>"; };
 		4F59AE8021B8B9F800E20879 /* AOC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC3.swift; sourceTree = "<group>"; };
@@ -58,10 +70,22 @@
 		4F87C23221BA8B2100B21EC9 /* AOC6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC6.swift; sourceTree = "<group>"; };
 		4F87C23421BA8CD000B21EC9 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		4F87C23621BA8CE800B21EC9 /* ExpandableGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableGrid.swift; sourceTree = "<group>"; };
+		4F87C23C21BA9C7F00B21EC9 /* AOC2018 Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AOC2018 Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F87C23E21BA9C7F00B21EC9 /* AOC2018_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC2018_Tests.swift; sourceTree = "<group>"; };
+		4F87C24021BA9C7F00B21EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F87C24F21BAA0B400B21EC9 /* 1-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "1-example.txt"; sourceTree = "<group>"; };
+		4F87C25021BAADF400B21EC9 /* 2b-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "2b-example.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4F59AE3A21B7E4FB00E20879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F87C23921BA9C7F00B21EC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				4F59AE3F21B7E4FB00E20879 /* AOC2018 */,
+				4F87C23D21BA9C7F00B21EC9 /* AOC2018 Tests */,
 				4F59AE3E21B7E4FB00E20879 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				4F59AE3D21B7E4FB00E20879 /* AOC2018 */,
+				4F87C23C21BA9C7F00B21EC9 /* AOC2018 Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,8 +128,10 @@
 			isa = PBXGroup;
 			children = (
 				4F59AE4921B7E58E00E20879 /* 1.txt */,
+				4F87C24F21BAA0B400B21EC9 /* 1-example.txt */,
 				4F59AE6621B8002700E20879 /* 2.txt */,
-				4F59AE6921B80F1800E20879 /* 2-example.txt */,
+				4F59AE6921B80F1800E20879 /* 2a-example.txt */,
+				4F87C25021BAADF400B21EC9 /* 2b-example.txt */,
 				4F59AE6A21B81CDF00E20879 /* 3.txt */,
 				4F59AE6B21B81D2800E20879 /* 3-example.txt */,
 				4F59AE8421B9530400E20879 /* 4.txt */,
@@ -141,6 +169,15 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		4F87C23D21BA9C7F00B21EC9 /* AOC2018 Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4F87C23E21BA9C7F00B21EC9 /* AOC2018_Tests.swift */,
+				4F87C24021BA9C7F00B21EC9 /* Info.plist */,
+			);
+			path = "AOC2018 Tests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,6 +198,23 @@
 			productReference = 4F59AE3D21B7E4FB00E20879 /* AOC2018 */;
 			productType = "com.apple.product-type.tool";
 		};
+		4F87C23B21BA9C7F00B21EC9 /* AOC2018 Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F87C24321BA9C7F00B21EC9 /* Build configuration list for PBXNativeTarget "AOC2018 Tests" */;
+			buildPhases = (
+				4F87C23821BA9C7F00B21EC9 /* Sources */,
+				4F87C23921BA9C7F00B21EC9 /* Frameworks */,
+				4F87C23A21BA9C7F00B21EC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AOC2018 Tests";
+			productName = "AOC2018 Tests";
+			productReference = 4F87C23C21BA9C7F00B21EC9 /* AOC2018 Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +226,9 @@
 				ORGANIZATIONNAME = dopiaza.org;
 				TargetAttributes = {
 					4F59AE3C21B7E4FB00E20879 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4F87C23B21BA9C7F00B21EC9 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -189,9 +246,20 @@
 			projectRoot = "";
 			targets = (
 				4F59AE3C21B7E4FB00E20879 /* AOC2018 */,
+				4F87C23B21BA9C7F00B21EC9 /* AOC2018 Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F87C23A21BA9C7F00B21EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F59AE3921B7E4FB00E20879 /* Sources */ = {
@@ -210,6 +278,25 @@
 				4F59AE8121B8B9F800E20879 /* AOC3.swift in Sources */,
 				4F59AE4D21B7E67200E20879 /* Puzzle.swift in Sources */,
 				4F59AE6521B7F2E200E20879 /* InputReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F87C23821BA9C7F00B21EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F87C24C21BAA08300B21EC9 /* AOC4.swift in Sources */,
+				4F87C24B21BAA08300B21EC9 /* AOC3.swift in Sources */,
+				4F87C24521BAA07C00B21EC9 /* InputReader.swift in Sources */,
+				4F87C24721BAA07C00B21EC9 /* Point.swift in Sources */,
+				4F87C24A21BAA08300B21EC9 /* AOC2.swift in Sources */,
+				4F87C24621BAA07C00B21EC9 /* Regex.swift in Sources */,
+				4F87C24E21BAA08300B21EC9 /* AOC6.swift in Sources */,
+				4F87C23F21BA9C7F00B21EC9 /* AOC2018_Tests.swift in Sources */,
+				4F87C24421BAA07C00B21EC9 /* Puzzle.swift in Sources */,
+				4F87C24821BAA07C00B21EC9 /* ExpandableGrid.swift in Sources */,
+				4F87C24921BAA08300B21EC9 /* AOC1.swift in Sources */,
+				4F87C24D21BAA08300B21EC9 /* AOC5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +442,42 @@
 			};
 			name = Release;
 		};
+		4F87C24121BA9C7F00B21EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7XNZ34C97W;
+				INFOPLIST_FILE = "AOC2018 Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.dopiaza.AOC2018-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4F87C24221BA9C7F00B21EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7XNZ34C97W;
+				INFOPLIST_FILE = "AOC2018 Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.dopiaza.AOC2018-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -372,6 +495,15 @@
 			buildConfigurations = (
 				4F59AE4521B7E4FB00E20879 /* Debug */,
 				4F59AE4621B7E4FB00E20879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F87C24321BA9C7F00B21EC9 /* Build configuration list for PBXNativeTarget "AOC2018 Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F87C24121BA9C7F00B21EC9 /* Debug */,
+				4F87C24221BA9C7F00B21EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

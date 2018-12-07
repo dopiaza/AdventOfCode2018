@@ -64,14 +64,25 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "6"
+            argument = "2"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "1"
+            argument = "2"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "2-example"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "AOC_DIR"
+            value = "/Users/davidw/Development/Advent of Code/AOC2018/AOC2018"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

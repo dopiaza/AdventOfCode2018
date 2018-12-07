@@ -12,9 +12,9 @@ class AOC4: Puzzle {
     let data: [String]
     let sortedData: [String]
     
-    init() {
+    init(inputFile: String) {
         
-        let reader = InputReader(input: "4")
+        let reader = InputReader(input: inputFile)
         data = reader.toStringArray()
         
         sortedData = data.sorted { (a, b) -> Bool in
@@ -27,7 +27,7 @@ class AOC4: Puzzle {
         }
     }
     
-    func run1() {
+    func run1() -> String {
         let guards = processData()
         var sleepiestGuard: Guard?
         var sleepyTime: Int = 0
@@ -55,9 +55,11 @@ class AOC4: Puzzle {
         
         print("Sleepiest minute was \(sleepiestMinute) with \(sleepiestSleep) snoozes")
         print("Answer: \(sleepiestGuard!.id * sleepiestMinute)")
+        
+        return String(sleepiestGuard!.id * sleepiestMinute)
     }
     
-    func run2() {
+    func run2() -> String {
         let guards = processData()
         var sleepiestMinute = -1
         var sleepiestSleep = 0
@@ -76,6 +78,8 @@ class AOC4: Puzzle {
         
         print("Sleepiest guard was #\(sleepiestGuard!.id) with \(sleepiestSleep) sleeps at minute \(sleepiestMinute)")
         print("Answer: \(sleepiestGuard!.id * sleepiestMinute)")
+        
+        return String(sleepiestGuard!.id * sleepiestMinute)
 }
     
     func processData() -> [Int : Guard] {

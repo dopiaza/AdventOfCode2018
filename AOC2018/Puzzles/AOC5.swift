@@ -12,18 +12,19 @@ class AOC5: Puzzle {
     
     let data: String
     
-    init() {
+    init(inputFile: String) {
         
-        let reader = InputReader(input: "5")
+        let reader = InputReader(input: inputFile)
         data = reader.toString()
     }
     
-    func run1() {
+    func run1() -> String {
         let polymer = runReactor(polymer: data)
         print("Final polymer length \(polymer.count)")
+        return String(polymer.count)
     }
     
-    func run2() {
+    func run2() -> String {
         var shortest: Int?
         
         let alphabet = "abcdefghijklmnopqrstuvwxyz"
@@ -41,6 +42,7 @@ class AOC5: Puzzle {
         }
         
         print("Shortest: \(shortest!)")
+        return String(shortest ?? 0)
     }
 
     func runReactor(polymer: String) -> String {

@@ -10,13 +10,15 @@ import Foundation
 
 class AOC2: Puzzle {
     let data: [String]
+    let inputFile: String
     
-    init() {
-        let reader = InputReader(input: "2")
+    init(inputFile: String) {
+        let reader = InputReader(input: inputFile)
+        self.inputFile = inputFile
         data = reader.toStringArray()
     }
     
-    func run1() {
+    func run1() -> String {
         var twoCount: Int = 0
         var threeCount: Int = 0
         
@@ -31,17 +33,22 @@ class AOC2: Puzzle {
         
         let checksum = twoCount * threeCount
         print ("Checksum: \(checksum)")
+        return String(checksum)
     }
     
-    func run2() {
+    func run2() -> String {
         let length = data[0].count
+        var answer: String = "?"
         
         for i in 0..<length {
             let matches = self.matches(differingPosition: i)
             if !matches.isEmpty {
                 print("\(i): \(matches)")
+                answer = matches.first?.key ?? "?"
             }
         }
+        
+        return answer
     }
     
     func hasRepeats(id: String, count: Int) -> Bool {

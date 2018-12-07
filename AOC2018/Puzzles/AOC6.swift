@@ -13,9 +13,9 @@ class AOC6: Puzzle {
     let data: [String]
     var points: [Point]
     
-    init() {
+    init(inputFile: String) {
         
-        let reader = InputReader(input: "6-example")
+        let reader = InputReader(input: inputFile)
         data = reader.toStringArray()
         
         points = []
@@ -31,15 +31,12 @@ class AOC6: Puzzle {
         }
     }
 
-    func run1() {
-        
+    func run1() -> String {
+        return ""
     }
     
-    func run2() {
-        
+    func run2() -> String {
+       return ""
     }
     
 }
-
-
-
