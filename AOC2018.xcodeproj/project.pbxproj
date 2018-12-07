@@ -16,6 +16,9 @@
 		4F59AE8321B93E6E00E20879 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE8221B93E6E00E20879 /* Regex.swift */; };
 		4F59AE8721B9548E00E20879 /* AOC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59AE8621B9548E00E20879 /* AOC4.swift */; };
 		4F87C22D21B9B84300B21EC9 /* AOC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C22C21B9B84300B21EC9 /* AOC5.swift */; };
+		4F87C23321BA8B2100B21EC9 /* AOC6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C23221BA8B2100B21EC9 /* AOC6.swift */; };
+		4F87C23521BA8CD000B21EC9 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C23421BA8CD000B21EC9 /* Point.swift */; };
+		4F87C23721BA8CE800B21EC9 /* ExpandableGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C23621BA8CE800B21EC9 /* ExpandableGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +53,11 @@
 		4F87C22C21B9B84300B21EC9 /* AOC5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC5.swift; sourceTree = "<group>"; };
 		4F87C22E21B9B85600B21EC9 /* 5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 5.txt; sourceTree = "<group>"; };
 		4F87C22F21B9B89100B21EC9 /* 5-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "5-example.txt"; sourceTree = "<group>"; };
+		4F87C23021BA8AD100B21EC9 /* 6-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "6-example.txt"; sourceTree = "<group>"; };
+		4F87C23121BA8B0500B21EC9 /* 6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 6.txt; sourceTree = "<group>"; };
+		4F87C23221BA8B2100B21EC9 /* AOC6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC6.swift; sourceTree = "<group>"; };
+		4F87C23421BA8CD000B21EC9 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		4F87C23621BA8CE800B21EC9 /* ExpandableGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,8 @@
 				4F59AE8521B9543C00E20879 /* 4-example.txt */,
 				4F87C22E21B9B85600B21EC9 /* 5.txt */,
 				4F87C22F21B9B89100B21EC9 /* 5-example.txt */,
+				4F87C23121BA8B0500B21EC9 /* 6.txt */,
+				4F87C23021BA8AD100B21EC9 /* 6-example.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -114,6 +124,7 @@
 				4F59AE8021B8B9F800E20879 /* AOC3.swift */,
 				4F59AE8621B9548E00E20879 /* AOC4.swift */,
 				4F87C22C21B9B84300B21EC9 /* AOC5.swift */,
+				4F87C23221BA8B2100B21EC9 /* AOC6.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -124,6 +135,8 @@
 				4F59AE4C21B7E67200E20879 /* Puzzle.swift */,
 				4F59AE6421B7F2E200E20879 /* InputReader.swift */,
 				4F59AE8221B93E6E00E20879 /* Regex.swift */,
+				4F87C23421BA8CD000B21EC9 /* Point.swift */,
+				4F87C23621BA8CE800B21EC9 /* ExpandableGrid.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -185,12 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F87C23321BA8B2100B21EC9 /* AOC6.swift in Sources */,
 				4F87C22D21B9B84300B21EC9 /* AOC5.swift in Sources */,
 				4F59AE6821B8003E00E20879 /* AOC2.swift in Sources */,
 				4F59AE4F21B7E6E900E20879 /* AOC1.swift in Sources */,
 				4F59AE4121B7E4FB00E20879 /* main.swift in Sources */,
+				4F87C23721BA8CE800B21EC9 /* ExpandableGrid.swift in Sources */,
 				4F59AE8321B93E6E00E20879 /* Regex.swift in Sources */,
 				4F59AE8721B9548E00E20879 /* AOC4.swift in Sources */,
+				4F87C23521BA8CD000B21EC9 /* Point.swift in Sources */,
 				4F59AE8121B8B9F800E20879 /* AOC3.swift in Sources */,
 				4F59AE4D21B7E67200E20879 /* Puzzle.swift in Sources */,
 				4F59AE6521B7F2E200E20879 /* InputReader.swift in Sources */,

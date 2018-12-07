@@ -33,6 +33,8 @@ case 4:
     puzzle = AOC4()
 case 5:
     puzzle = AOC5()
+case 6:
+    puzzle = AOC6()
 default:
     print("Cannot load puzzle for Day \(day)")
     exit(1)
