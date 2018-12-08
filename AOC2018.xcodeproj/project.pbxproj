@@ -32,6 +32,8 @@
 		4F87C24D21BAA08300B21EC9 /* AOC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C22C21B9B84300B21EC9 /* AOC5.swift */; };
 		4F87C24E21BAA08300B21EC9 /* AOC6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C23221BA8B2100B21EC9 /* AOC6.swift */; };
 		4F87C25421BBE78800B21EC9 /* ExpandableGrid_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C25321BBE78800B21EC9 /* ExpandableGrid_Tests.swift */; };
+		4F87C25621BC245000B21EC9 /* AOC7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C25521BC245000B21EC9 /* AOC7.swift */; };
+		4F87C25921BC2A8000B21EC9 /* AOC7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C25521BC245000B21EC9 /* AOC7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +79,9 @@
 		4F87C24F21BAA0B400B21EC9 /* 1-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "1-example.txt"; sourceTree = "<group>"; };
 		4F87C25021BAADF400B21EC9 /* 2b-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "2b-example.txt"; sourceTree = "<group>"; };
 		4F87C25321BBE78800B21EC9 /* ExpandableGrid_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableGrid_Tests.swift; sourceTree = "<group>"; };
+		4F87C25521BC245000B21EC9 /* AOC7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC7.swift; sourceTree = "<group>"; };
+		4F87C25721BC246300B21EC9 /* 7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 7.txt; sourceTree = "<group>"; };
+		4F87C25821BC248700B21EC9 /* 7-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "7-example.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +147,8 @@
 				4F87C22F21B9B89100B21EC9 /* 5-example.txt */,
 				4F87C23121BA8B0500B21EC9 /* 6.txt */,
 				4F87C23021BA8AD100B21EC9 /* 6-example.txt */,
+				4F87C25721BC246300B21EC9 /* 7.txt */,
+				4F87C25821BC248700B21EC9 /* 7-example.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -155,6 +162,7 @@
 				4F59AE8621B9548E00E20879 /* AOC4.swift */,
 				4F87C22C21B9B84300B21EC9 /* AOC5.swift */,
 				4F87C23221BA8B2100B21EC9 /* AOC6.swift */,
+				4F87C25521BC245000B21EC9 /* AOC7.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -271,6 +279,7 @@
 			files = (
 				4F87C23321BA8B2100B21EC9 /* AOC6.swift in Sources */,
 				4F87C22D21B9B84300B21EC9 /* AOC5.swift in Sources */,
+				4F87C25621BC245000B21EC9 /* AOC7.swift in Sources */,
 				4F59AE6821B8003E00E20879 /* AOC2.swift in Sources */,
 				4F59AE4F21B7E6E900E20879 /* AOC1.swift in Sources */,
 				4F59AE4121B7E4FB00E20879 /* main.swift in Sources */,
@@ -297,6 +306,7 @@
 				4F87C24E21BAA08300B21EC9 /* AOC6.swift in Sources */,
 				4F87C23F21BA9C7F00B21EC9 /* AOC2018_Tests.swift in Sources */,
 				4F87C25421BBE78800B21EC9 /* ExpandableGrid_Tests.swift in Sources */,
+				4F87C25921BC2A8000B21EC9 /* AOC7.swift in Sources */,
 				4F87C24421BAA07C00B21EC9 /* Puzzle.swift in Sources */,
 				4F87C24821BAA07C00B21EC9 /* ExpandableGrid.swift in Sources */,
 				4F87C24921BAA08300B21EC9 /* AOC1.swift in Sources */,

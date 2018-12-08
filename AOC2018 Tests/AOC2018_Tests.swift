@@ -55,4 +55,16 @@ class AOC2018_Tests: XCTestCase {
         XCTAssertEqual(puzzle.run1(), "17")
         XCTAssertEqual(puzzle.run2(), "16")
     }
+    
+    func test7() {
+        var puzzle = AOC7(inputFile: "7-example")
+        puzzle.workers = 2
+        puzzle.stepTime = 0
+        XCTAssertEqual(puzzle.run1(), "CABDFE")
+        
+        puzzle = AOC7(inputFile: "7-example")
+        puzzle.workers = 2
+        puzzle.stepTime = 0
+        XCTAssertEqual(puzzle.run2(), "15")
+    }
 }
