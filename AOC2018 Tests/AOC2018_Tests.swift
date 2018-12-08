@@ -48,4 +48,11 @@ class AOC2018_Tests: XCTestCase {
         XCTAssertEqual(puzzle.run1(), "10")
         XCTAssertEqual(puzzle.run2(), "4")
     }
+
+    func test6() {
+        let puzzle = AOC6(inputFile: "6-example")
+        puzzle.threshold = 32
+        XCTAssertEqual(puzzle.run1(), "17")
+        XCTAssertEqual(puzzle.run2(), "16")
+    }
 }

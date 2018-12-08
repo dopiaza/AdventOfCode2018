@@ -8,9 +8,18 @@
 
 import Foundation
 
-class Point {
+class Point: Equatable, Hashable {
     var x: Int
     var y: Int
+    
+    static func == (lhs: Point, rhs: Point) -> Bool {
+        return (lhs.x == rhs.x) && (lhs.y == rhs.y)
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(x)
+        hasher.combine(y)
+    }
     
     init(x: Int, y: Int) {
         self.x = x
