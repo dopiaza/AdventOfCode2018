@@ -67,4 +67,11 @@ class AOC2018_Tests: XCTestCase {
         puzzle.stepTime = 0
         XCTAssertEqual(puzzle.run2(), "15")
     }
+    
+    func test8() {
+        let puzzle = AOC8(inputFile: "8-example")
+        XCTAssertEqual(puzzle.run1(), "138")
+        XCTAssertEqual(puzzle.run2(), "66")
+    }
+
 }
