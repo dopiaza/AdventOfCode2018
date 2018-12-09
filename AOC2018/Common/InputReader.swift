@@ -36,6 +36,6 @@ class InputReader {
     }
     
     func toString() -> String {
-        return toStringArray().first!
+        return toStringArray().first!.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
     }
 }

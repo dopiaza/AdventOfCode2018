@@ -74,4 +74,20 @@ class AOC2018_Tests: XCTestCase {
         XCTAssertEqual(puzzle.run2(), "66")
     }
 
+    func test9() {
+        var puzzle = AOC9(inputFile: "9a-example")
+        XCTAssertEqual(puzzle.run1(), "32")
+        puzzle = AOC9(inputFile: "9b-example")
+        XCTAssertEqual(puzzle.run1(), "8317")
+        puzzle = AOC9(inputFile: "9c-example")
+        XCTAssertEqual(puzzle.run1(), "146373")
+        puzzle = AOC9(inputFile: "9d-example")
+        XCTAssertEqual(puzzle.run1(), "2764")
+        puzzle = AOC9(inputFile: "9e-example")
+        XCTAssertEqual(puzzle.run1(), "54718")
+        puzzle = AOC9(inputFile: "9f-example")
+        XCTAssertEqual(puzzle.run1(), "37305")
+
+//        XCTAssertEqual(puzzle.run2(), "66")
+    }
 }

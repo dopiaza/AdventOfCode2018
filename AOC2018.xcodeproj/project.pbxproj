@@ -36,6 +36,15 @@
 		4F87C25921BC2A8000B21EC9 /* AOC7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C25521BC245000B21EC9 /* AOC7.swift */; };
 		4F87C25B21BC3B3700B21EC9 /* AOC8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C25A21BC3B3700B21EC9 /* AOC8.swift */; };
 		4F87C25E21BC418D00B21EC9 /* AOC8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C25A21BC3B3700B21EC9 /* AOC8.swift */; };
+		4F87C26021BD2C3A00B21EC9 /* AOC9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C25F21BD2C3900B21EC9 /* AOC9.swift */; };
+		4F87C26121BD2C3A00B21EC9 /* AOC9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C25F21BD2C3900B21EC9 /* AOC9.swift */; };
+		4F87C26321BD2C5300B21EC9 /* 9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F87C26221BD2C5300B21EC9 /* 9.txt */; };
+		4F87C26521BD2C8300B21EC9 /* 9a-example.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F87C26421BD2C8300B21EC9 /* 9a-example.txt */; };
+		4F87C26721BD2CBB00B21EC9 /* 9b-example.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F87C26621BD2CBB00B21EC9 /* 9b-example.txt */; };
+		4F87C26921BD2CE600B21EC9 /* 9c-example.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F87C26821BD2CE600B21EC9 /* 9c-example.txt */; };
+		4F87C26B21BD2D0700B21EC9 /* 9d-example.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F87C26A21BD2D0700B21EC9 /* 9d-example.txt */; };
+		4F87C26D21BD2D2A00B21EC9 /* 9e-example.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F87C26C21BD2D2A00B21EC9 /* 9e-example.txt */; };
+		4F87C26F21BD2D4800B21EC9 /* 9f-example.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F87C26E21BD2D4800B21EC9 /* 9f-example.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -87,6 +96,14 @@
 		4F87C25A21BC3B3700B21EC9 /* AOC8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC8.swift; sourceTree = "<group>"; };
 		4F87C25C21BC3B4600B21EC9 /* 8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 8.txt; sourceTree = "<group>"; };
 		4F87C25D21BC3B6F00B21EC9 /* 8-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "8-example.txt"; sourceTree = "<group>"; };
+		4F87C25F21BD2C3900B21EC9 /* AOC9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC9.swift; sourceTree = "<group>"; };
+		4F87C26221BD2C5300B21EC9 /* 9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 9.txt; sourceTree = "<group>"; };
+		4F87C26421BD2C8300B21EC9 /* 9a-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "9a-example.txt"; sourceTree = "<group>"; };
+		4F87C26621BD2CBB00B21EC9 /* 9b-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "9b-example.txt"; sourceTree = "<group>"; };
+		4F87C26821BD2CE600B21EC9 /* 9c-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "9c-example.txt"; sourceTree = "<group>"; };
+		4F87C26A21BD2D0700B21EC9 /* 9d-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "9d-example.txt"; sourceTree = "<group>"; };
+		4F87C26C21BD2D2A00B21EC9 /* 9e-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "9e-example.txt"; sourceTree = "<group>"; };
+		4F87C26E21BD2D4800B21EC9 /* 9f-example.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "9f-example.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +173,13 @@
 				4F87C25821BC248700B21EC9 /* 7-example.txt */,
 				4F87C25C21BC3B4600B21EC9 /* 8.txt */,
 				4F87C25D21BC3B6F00B21EC9 /* 8-example.txt */,
+				4F87C26221BD2C5300B21EC9 /* 9.txt */,
+				4F87C26421BD2C8300B21EC9 /* 9a-example.txt */,
+				4F87C26621BD2CBB00B21EC9 /* 9b-example.txt */,
+				4F87C26821BD2CE600B21EC9 /* 9c-example.txt */,
+				4F87C26A21BD2D0700B21EC9 /* 9d-example.txt */,
+				4F87C26C21BD2D2A00B21EC9 /* 9e-example.txt */,
+				4F87C26E21BD2D4800B21EC9 /* 9f-example.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -171,6 +195,7 @@
 				4F87C23221BA8B2100B21EC9 /* AOC6.swift */,
 				4F87C25521BC245000B21EC9 /* AOC7.swift */,
 				4F87C25A21BC3B3700B21EC9 /* AOC8.swift */,
+				4F87C25F21BD2C3900B21EC9 /* AOC9.swift */,
 			);
 			path = Puzzles;
 			sourceTree = "<group>";
@@ -275,6 +300,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F87C26321BD2C5300B21EC9 /* 9.txt in Resources */,
+				4F87C26921BD2CE600B21EC9 /* 9c-example.txt in Resources */,
+				4F87C26721BD2CBB00B21EC9 /* 9b-example.txt in Resources */,
+				4F87C26B21BD2D0700B21EC9 /* 9d-example.txt in Resources */,
+				4F87C26F21BD2D4800B21EC9 /* 9f-example.txt in Resources */,
+				4F87C26521BD2C8300B21EC9 /* 9a-example.txt in Resources */,
+				4F87C26D21BD2D2A00B21EC9 /* 9e-example.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F87C26021BD2C3A00B21EC9 /* AOC9.swift in Sources */,
 				4F87C23321BA8B2100B21EC9 /* AOC6.swift in Sources */,
 				4F87C22D21B9B84300B21EC9 /* AOC5.swift in Sources */,
 				4F87C25621BC245000B21EC9 /* AOC7.swift in Sources */,
@@ -307,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F87C25E21BC418D00B21EC9 /* AOC8.swift in Sources */,
+				4F87C26121BD2C3A00B21EC9 /* AOC9.swift in Sources */,
 				4F87C24C21BAA08300B21EC9 /* AOC4.swift in Sources */,
 				4F87C24B21BAA08300B21EC9 /* AOC3.swift in Sources */,
 				4F87C24521BAA07C00B21EC9 /* InputReader.swift in Sources */,
