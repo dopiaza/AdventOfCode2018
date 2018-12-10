@@ -87,7 +87,5 @@ class AOC2018_Tests: XCTestCase {
         XCTAssertEqual(puzzle.run1(), "54718")
         puzzle = AOC9(inputFile: "9f-example")
         XCTAssertEqual(puzzle.run1(), "37305")
-
-//        XCTAssertEqual(puzzle.run2(), "66")
     }
 }
