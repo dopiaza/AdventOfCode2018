@@ -44,6 +44,8 @@ case 9:
     puzzle = AOC9(inputFile: input)
 case 10:
     puzzle = AOC10(inputFile: input)
+case 11:
+    puzzle = AOC11(serialNumber: 5235)
 default:
     print("Cannot load puzzle for Day \(day)")
     exit(1)

@@ -88,4 +88,26 @@ class AOC2018_Tests: XCTestCase {
         puzzle = AOC9(inputFile: "9f-example")
         XCTAssertEqual(puzzle.run1(), "37305")
     }
+    
+    func test11() {
+        var puzzle = AOC11(serialNumber: 8)
+        XCTAssertEqual(puzzle.powerForCell(x: 3, y: 5), 4)
+        puzzle = AOC11(serialNumber: 57)
+        XCTAssertEqual(puzzle.powerForCell(x: 122, y: 79), -5)
+        puzzle = AOC11(serialNumber: 39)
+        XCTAssertEqual(puzzle.powerForCell(x: 217, y: 196), 0)
+        puzzle = AOC11(serialNumber: 71)
+        XCTAssertEqual(puzzle.powerForCell(x: 101, y: 153), 4)
+
+        puzzle = AOC11(serialNumber: 18)
+        puzzle.calculateCells()
+        XCTAssertEqual(puzzle.powerForSquare(x: 33, y: 45), 29)
+        XCTAssertEqual(puzzle.run1(), "33,45")
+        XCTAssertEqual(puzzle.run2(), "90,269,16")
+        puzzle = AOC11(serialNumber: 42)
+        puzzle.calculateCells()
+        XCTAssertEqual(puzzle.powerForSquare(x: 21, y: 61), 30)
+        XCTAssertEqual(puzzle.run1(), "21,61")
+        XCTAssertEqual(puzzle.run2(), "232,251,12")
+    }
 }
