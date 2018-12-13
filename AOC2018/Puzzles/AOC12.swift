@@ -60,14 +60,16 @@ class AOC12: Puzzle {
     }
     
     func evolve() {
-        for _ in 0..<generations {
+        
+        for i in 0..<generations {
             // Grow in each direction so we can apply rules to the full set
-            plants = "...." + plants + "...."
+            let paddedPlants = "...." + plants + "...."
             var newPlants = ""
-            for i in 0..<(plants.count - 5) {
+            let oldOrigin = origin
+            for i in 0..<(paddedPlants.count - 5) {
                 let start = String.Index(encodedOffset: i)
                 let end = String.Index(encodedOffset: i + 5)
-                let s = String(plants[start..<end])
+                let s = String(paddedPlants[start..<end])
                 var c = "."
                 if let result = rules[s] {
                     c = String(result)
@@ -75,10 +77,30 @@ class AOC12: Puzzle {
                 newPlants += c
             }
             origin += 2
+            
+            // Trim excess empty pots from start and end
+            while newPlants.hasPrefix(".") {
+                newPlants.remove(at: String.Index(encodedOffset: 0))
+                origin -= 1
+            }
+            while newPlants.hasSuffix(".") {
+                newPlants.remove(at: newPlants.lastIndex(of: ".")!)
+            }
+
+            if plants == newPlants {
+                print("Repeating at \(i)")
+                let originShift = origin - oldOrigin
+                let generationsLeft = generations - i - 1
+                origin += generationsLeft * originShift
+                break
+            }
+
             plants = newPlants
-//            print(plants)
+            
+            print("\(i): \(plants)")
         }
     }
+
     
     var potTotal: Int {
         get {
