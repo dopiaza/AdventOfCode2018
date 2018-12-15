@@ -122,4 +122,28 @@ class AOC2018_Tests: XCTestCase {
         puzzle = AOC13(inputFile: "13b-example")
         XCTAssertEqual(puzzle.run2(), "6,4")
     }
+    
+    func test14() {
+        var puzzle = AOC14(input: 0)
+        puzzle.practice(num: 2018)
+        XCTAssertEqual(puzzle.getScores(after: 5), "0124515891")
+        XCTAssertEqual(puzzle.getScores(after: 9), "5158916779")
+        XCTAssertEqual(puzzle.getScores(after: 18), "9251071085")
+        XCTAssertEqual(puzzle.getScores(after: 2018), "5941429882")
+        
+        XCTAssertEqual(puzzle.find("51589"), 9)
+        XCTAssertEqual(puzzle.find("01245"), 5)
+        XCTAssertEqual(puzzle.find("92510"), 18)
+        XCTAssertEqual(puzzle.find("59414"), 2018)
+
+        puzzle = AOC14(input: 0)
+        XCTAssertEqual(puzzle.makeRecipesLookingFor("51589"), 9)
+        puzzle = AOC14(input: 0)
+        XCTAssertEqual(puzzle.makeRecipesLookingFor("01245"), 5)
+        puzzle = AOC14(input: 0)
+        XCTAssertEqual(puzzle.makeRecipesLookingFor("92510"), 18)
+        puzzle = AOC14(input: 0)
+        XCTAssertEqual(puzzle.makeRecipesLookingFor("59414"), 2018)
+    }
+
 }

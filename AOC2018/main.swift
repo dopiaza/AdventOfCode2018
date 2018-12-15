@@ -50,6 +50,8 @@ case 12:
     puzzle = AOC12(inputFile: input)
 case 13:
     puzzle = AOC13(inputFile: input)
+case 14:
+    puzzle = AOC14(input: 503761)
 default:
     print("Cannot load puzzle for Day \(day)")
     exit(1)
