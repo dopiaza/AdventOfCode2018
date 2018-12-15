@@ -115,4 +115,11 @@ class AOC2018_Tests: XCTestCase {
         let puzzle = AOC12(inputFile: "12-example")
         XCTAssertEqual(puzzle.run1(), "325")
     }
+
+    func test13() {
+        var puzzle = AOC13(inputFile: "13a-example")
+        XCTAssertEqual(puzzle.run1(), "7,3")
+        puzzle = AOC13(inputFile: "13b-example")
+        XCTAssertEqual(puzzle.run2(), "6,4")
+    }
 }
